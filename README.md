@@ -4,8 +4,8 @@
 - 🌱 I’m currently learning ```Unity```, ```C#```, ```.Net```, ```Xamarin```, ```HTML```, ```CSS```, ```Git and GitHub```and ```Python```.
 - 👯 I’m looking to collaborate on ```games``` and ```fullstack app```.
 - 💬 Ask me about ```Unity```, ```.Net``` and ```Xamarim```.
-- 😄 Pronouns: Him/His
-- ⚡ Fun fact: *"broa"* is divine
+- 😄 Pronouns: Him/His.
+- ⚡ Fun fact: *"broa"* is divine.
 - 📫 How to reach me: 
 
      [![N|Solid](https://img.icons8.com/color-glass/48/000000/instagram-new.png)](https://www.instagram.com/esdras_albino/) [![N|Solid](https://img.icons8.com/fluent/48/000000/linkedin.png)](https://www.linkedin.com/in/esdras-henrique-9ab647215/)
