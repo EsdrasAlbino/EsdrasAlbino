@@ -27,7 +27,7 @@
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="64"/>
      <img src="https://img.icons8.com/ios-glyphs/344/selenium-test-automation.png" width="64"/>
      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968525.png" width="64"/>
-    <img src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png" width="64"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/5210/5210800.png" width="64"/>
     
   </div>
 </div>
