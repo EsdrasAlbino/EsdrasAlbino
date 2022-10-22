@@ -14,17 +14,21 @@
 
 <div align="center">
   <div style="display: flex;">
+    <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" width="64"/>
+    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" width="64"/>
+    <img src="https://img.icons8.com/color/48/000000/git.png" width="64"/>
+    <img src="https://img.icons8.com/color/48/000000/github.png" width="64"/>
     <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" width="64"/>
     <img src="https://img.icons8.com/fluent/48/000000/unity.png" width="64"/>
     <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png" width="64"/>
-    <img src="https://img.icons8.com/color/48/000000/visual-studio-2019.png" width="64"/>
-    <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" width="64"/>
     <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" width="64"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="64"/>
     <img src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" width="64"/>
-    <img src="https://img.icons8.com/color/48/000000/git.png" width="64"/>
-    <img src="https://img.icons8.com/color/48/000000/github.png" width="64"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="64"/>
+     <img src="https://img.icons8.com/ios-glyphs/344/selenium-test-automation.png" width="64"/>
+     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968525.png" width="64"/>
     <img src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png" width="64"/>
-    <img src="https://img.icons8.com/ios-glyphs/344/selenium-test-automation.png" width="64"/>
+    
   </div>
 </div>
 
