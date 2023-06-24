@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  color: #f06b4e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #eaeaeb;
+}
+
+.full-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.justify-and-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-odd {
+  background-color: #222223;
+}
+.background-even {
+  background-color: #1f1f1e;
+}
+#text-pre-title-main {
+  font-size: 2rem;
+  color: #484849;
+}
+#h1 {
+  width: 30%;
+  font-size: 3rem;
+}
+#button-first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  background-color: #f06b4e;
+  font-size: 0.7rem;
+}
+
+.first-div {
+  justify-content: center;
+}
+.margin-center {
+  padding-left: 30%;
+}
+
+.container-about-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-about-me {
+  width: 400px;
+}
+
+.container-skills {
+  display: flex;
+  width: 60%;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-skill {
+  display: flex;
+  width: 50%;
+  height: 33%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contianer-percentual-skill {
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+}
+
+.indicator-percentual-active {
+  width: 79%;
+  height: 10px;
+  background-color: #f06b4e;
+}
+.indicator-percentual-desactive {
+  width: 20%;
+  height: 10px;
+  background-color: #484849;
+}
+.text-percentual {
+}
+
+.container-mentores {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-mentor {
+  margin: 5px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container-mentores {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image-mentor {
+    margin: 5px;
+    width: 350px;
+  }
+}

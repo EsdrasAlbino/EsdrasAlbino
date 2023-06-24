@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Esdras Albino</title>
+    <script>
+      window.addEventListener("load", function () {
+        const sections = document.querySelectorAll(".full-screen");
+        let currentSectionIndex = 0;
+
+        // Define a primeira seção como ativa no carregamento da página
+        sections[currentSectionIndex].classList.add("active");
+
+        function changeSection() {
+          sections[currentSectionIndex].classList.remove("active");
+
+          // Incrementa o índice da seção atual
+          currentSectionIndex++;
+
+          // Volta para a primeira seção se chegar ao final
+          if (currentSectionIndex >= sections.length) {
+            currentSectionIndex = 0;
+          }
+
+          sections[currentSectionIndex].classList.add("active");
+        }
+
+        // Intervalo de tempo para trocar de seção (em milissegundos)
+        const interval = 5000;
+
+        setInterval(changeSection, interval);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="full-screen background-odd first-div">
+      <div class="margin-center">
+        <img />
+        <p id="text-pre-title-main">Sou</p>
+        <h1 id="h1">ESDRAS ALBINO</h1>
+      </div>
+    </div>
+    <div class="full-screen background-even justify-and-align">
+      <h2>Sobre mim</h2>
+      <div class="container-about-me">
+        <div>
+          <p>Meu nome é Esdras</p>
+          <p class="text-about-me">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Exercitationem iusto quo ex vitae, praesentium labore dolorem
+            laborum dignissimos possimus. Consectetur ipsam reiciendis officia
+            architecto qui error, voluptatem fugiat tempora expedita? Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde
+            voluptas corporis debitis perspiciatis, in deserunt dolor provident
+            quos enim, reiciendis modi cupiditate aliquam hic maxime officia
+            ipsam quas asperiores?
+          </p>
+        </div>
+        <img src="assets/a.jpg" class="image-mentor" />
+      </div>
+    </div>
+    <div class="full-screen background-odd justify-and-align">
+      <h2>Hobbies</h2>
+      <div class="container-skills">
+        <div class="container-skill">
+          <p>Vôlei</p>
+          <div>
+            <p>80%</p>
+          </div>
+        </div>
+        <div class="container-skill">
+          <p>Ler</p>
+          <div>
+            <p>80%</p>
+          </div>
+        </div>
+        <div class="container-skill">
+          <p>Criar</p>
+          <div>
+            <p>80%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="full-screen background-even justify-and-align">
+      <h2>Mentores</h2>
+      <div class="container-mentores">
+        <div>
+          <img
+            class="image-mentor"
+            src="assets/ImageNikolaTesla.jpg"
+            alt="Nikola Tesla"
+          />
+        </div>
+        <div>
+          <img
+            class="image-mentor"
+            src="assets/imageSalomon.jpg"
+            alt="Rei Salomão"
+          />
+        </div>
+        <div>
+          <img
+            class="image-mentor"
+            src="assets/imageTestSite.jpg"
+            alt="Elon Musk"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
