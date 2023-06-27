@@ -6,34 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Esdras Albino</title>
-    <script>
-      window.addEventListener("load", function () {
-        const sections = document.querySelectorAll(".full-screen");
-        let currentSectionIndex = 0;
-
-        // Define a primeira seção como ativa no carregamento da página
-        sections[currentSectionIndex].classList.add("active");
-
-        function changeSection() {
-          sections[currentSectionIndex].classList.remove("active");
-
-          // Incrementa o índice da seção atual
-          currentSectionIndex++;
-
-          // Volta para a primeira seção se chegar ao final
-          if (currentSectionIndex >= sections.length) {
-            currentSectionIndex = 0;
-          }
-
-          sections[currentSectionIndex].classList.add("active");
-        }
-
-        // Intervalo de tempo para trocar de seção (em milissegundos)
-        const interval = 5000;
-
-        setInterval(changeSection, interval);
-      });
-    </script>
   </head>
   <body>
     <div class="full-screen background-odd first-div">
@@ -41,6 +13,26 @@
         <img />
         <p id="text-pre-title-main">Sou</p>
         <h1 id="h1">ESDRAS ALBINO</h1>
+        <div class="contianer-button-social">
+          <a href="https://github.com/EsdrasAlbino" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/733/733609.png"
+              class="image-social"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/esdras-albino/" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
+              class="image-social"
+            />
+          </a>
+          <a href="https://www.instagram.com/esdras_albino/" target="_blank">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
+              class="image-social"
+            />
+          </a>
+        </div>
       </div>
     </div>
     <div class="full-screen background-even justify-and-align">
@@ -49,38 +41,66 @@
         <div>
           <p>Meu nome é Esdras</p>
           <p class="text-about-me">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Exercitationem iusto quo ex vitae, praesentium labore dolorem
-            laborum dignissimos possimus. Consectetur ipsam reiciendis officia
-            architecto qui error, voluptatem fugiat tempora expedita? Lorem
-            ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde
-            voluptas corporis debitis perspiciatis, in deserunt dolor provident
-            quos enim, reiciendis modi cupiditate aliquam hic maxime officia
-            ipsam quas asperiores?
+            Acredito que diligência é a chave para qualquer coisa.
           </p>
         </div>
-        <img src="assets/a.jpg" class="image-mentor" />
+        <img src="assets/c.jpg" class="image-me" />
       </div>
     </div>
-    <div class="full-screen background-odd justify-and-align">
+    <div
+      class="full-screen-whitout-hight-fixed background-odd justify-and-align"
+    >
       <h2>Hobbies</h2>
       <div class="container-skills">
         <div class="container-skill">
-          <p>Vôlei</p>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/4993/4993632.png"
+            class="icon-hobbie"
+          />
+          <h3>Vôlei</h3>
           <div>
-            <p>80%</p>
+            <p>
+              Após me encantar com o impacto do esporte ao estudar biografias,
+              dediquei-me ao vôlei com afinco, alcançando resultados expressivos
+              em pouco tempo. Atualmente, integro a seleção de vôlei de Abreu e
+              Lima e me preparo para os campeonatos regionais mais importantes
+              do norte e nordeste.
+            </p>
           </div>
         </div>
         <div class="container-skill">
-          <p>Ler</p>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/864/864685.png"
+            class="icon-hobbie"
+          />
+          <h3>Ler</h3>
           <div>
-            <p>80%</p>
+            <p>
+              Eu não gostava de ler, inicialmente fui exposto a livros
+              didáticos, que sempre foram muito chatos para mim, mas minha
+              perspectiva mudou ao ler livros fascinantes sobre neurociência e
+              compreendi o poder da leitura. Desde então, mergulhei em conteúdos
+              interessantíssimos em minha visão, como, comportamento humano,
+              estoicismo e biografias, apreciando a incrível riqueza de
+              conhecimento que os livros oferecem.
+            </p>
           </div>
         </div>
         <div class="container-skill">
-          <p>Criar</p>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/4702/4702961.png"
+            class="icon-hobbie"
+          />
+          <h3>Criar</h3>
           <div>
-            <p>80%</p>
+            <p>
+              Para mim, a criação é como montar quebra-cabeças únicos e
+              inexistentes. Adoro organizar e sistematizar descobertas e
+              criações, gerando coisas novas. No entanto, isso sempre tem
+              objetivos claros, como adquirir experiência, conhecimento,
+              dinheiro e, acima de tudo, criar algo útil para resolver problemas
+              e gerar valor para os outros.
+            </p>
           </div>
         </div>
       </div>

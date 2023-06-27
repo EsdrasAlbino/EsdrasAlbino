@@ -9,13 +9,30 @@ h1 {
 h2 {
   color: #f06b4e;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+}
+h3 {
+  color: #f06b4e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
 }
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #eaeaeb;
+  text-align: justify;
+  margin: 5px;
+}
+a {
+  color: #fff;
 }
 
 .full-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.full-screen-whitout-hight-fixed {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -55,6 +72,15 @@ p {
 .margin-center {
   padding-left: 30%;
 }
+.contianer-button-social {
+  width: 100%;
+  height: 64px;
+}
+.image-social {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}
 
 .container-about-me {
   display: flex;
@@ -63,23 +89,32 @@ p {
 
 .text-about-me {
   width: 400px;
+  text-align: justify;
+}
+.image-me {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
 }
 
 .container-skills {
   display: flex;
-  width: 60%;
-  height: 60%;
-  align-items: center;
+  width: 80%;
+  height: 80%;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
 }
 .container-skill {
   display: flex;
-  width: 50%;
-  height: 33%;
+  width: 300px;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+}
+.icon-hobbie {
+  width: 32px;
+  height: 32px;
 }
 .contianer-percentual-skill {
   width: 100%;
@@ -112,15 +147,53 @@ p {
 }
 
 @media only screen and (max-width: 1400px) {
-  .container-mentores {
+  .full-screen-whitout-hight-fixed {
     display: flex;
     flex-direction: column;
+    height: 150vh;
+    width: 100vw;
+  }
+  .container-about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container-mentores {
+    flex-direction: column;
+  }
+  .image-mentor {
+    margin: 5px;
+    width: 350px;
+    border-radius: 5px;
+  }
+  .container-skills {
+    width: 50%;
+  }
+  .text-about-me {
+    width: 300px;
+    text-align: justify;
+  }
+  .image-me {
+    width: 480px;
+    height: 270px;
+    margin: 5px;
+    border-radius: 5px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .image-mentor {
+  .container-skills {
+    width: 80%;
+  }
+  .text-about-me {
+    width: 320px;
+    text-align: justify;
+  }
+  .image-me {
+    width: 320px;
+    height: 180;
     margin: 5px;
-    width: 350px;
+    border-radius: 5px;
   }
 }
