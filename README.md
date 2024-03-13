@@ -1,9 +1,9 @@
 ### Hi there 👋
 
 - 🔭 I'm currently studying
-- 🌱 I’m currently learning  ```C#```,```Unity```, ```.Net```, ```HTML```, ```CSS```, ```JavaScript```, ```React```, ```React Native```, ```Git and GitHub``` ```Python``` and  ```Selenium```.
+- 🌱 I’m currently learning  ```C++```, ```.Net```, ```AWS``` .
 - 👯 I’m looking to collaborate on ```games``` and ```fullstack app```.
-- 💬 Ask me about ```Unity```, ```React Native``` and ```Selenium```.
+- 💬 Ask me about ```C++```, ```C#```,```Typescript```, ```React``` and ```React Native```.
 - 😄 Pronouns: Him/His.
 - ⚡ Fun fact: *"broa"* is divine.
 - 📫 How to reach me: 
